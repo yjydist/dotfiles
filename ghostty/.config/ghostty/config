@@ -1,4 +1,4 @@
 theme = "GruvboxDarkHard"
-
+font-size = 14
 shell-integration = fish
 
