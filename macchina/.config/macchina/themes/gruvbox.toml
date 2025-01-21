@@ -1,0 +1,35 @@
+spacing = 2
+padding = 1
+hide_ascii = false
+prefer_small_ascii = true
+separator = "-->"
+color = "Blue"
+
+[bar]
+glygh = "o"
+symbol_open = '('
+symbol_close = ')'
+visible = true
+hide_delimiters = false
+
+[box]
+title = "Gruvbox"
+border = "rounded"
+visible = true
+x = 2
+y = 2
+
+[custom_ascii]
+color = "Green"
+# path = "/home/yjydist/dotfile/macchina/themes/asserts/ascii-art.png"
+
+
+[key]
+host = "Host"
+kernel = "Kernel"
+de = "DE"
+distro = "Distro"
+terminal = "Term"
+shell = "Shell"
+packages = "Packages"
+uptime = "Uptime"

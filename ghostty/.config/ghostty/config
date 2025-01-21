@@ -1,0 +1,4 @@
+theme = "GruvboxDarkHard"
+
+shell-integration = fish
+
