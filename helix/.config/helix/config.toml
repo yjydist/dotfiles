@@ -1,1 +1,25 @@
-theme = "gruvbox_dark_hard"
+theme = "gruvbox_dark_hard" # 设置 helix 主题
+
+[editor]
+mouse = true # 允许使用鼠标
+# 高亮显示
+cursorline = true # 高亮显示光标所在的行
+cursorcolumn = false # 高亮显示贯标所在的列
+bufferline = "never" # 是否在顶部显示缓冲区
+# always 从不嫌事
+# never 总是显示
+# mutiple 当缓存文件大于一个的时候显示
+
+[editor.cursor-shape] # 设置光标样式
+# bar 竖线
+# block 块状
+# underline 下划线
+insert = "bar" # 插入模式
+normal = "block" # 默认模式
+select = "underline" # 选择模式
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = []
+

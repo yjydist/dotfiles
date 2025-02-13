@@ -1,6 +1,13 @@
+# 启动时运行的命令
 command = "/opt/homebrew/bin/fish"
+
+# ghostty 主题
 theme = "GruvboxDarkHard"
+
+# 字体设置
+font-family = JetbrainsMonoNL Nerd Font
 font-size = 14
+
 
 shell-integration = fish
 
