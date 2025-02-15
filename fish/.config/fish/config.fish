@@ -14,7 +14,7 @@ set -gx PATH /usr/local/bin $PATH
 
 
 # set alias
-alias mc="macchina -o host -o kernel -o terminal -o shell -o packages -o memory"
+
 alias ls="eza -l"
 
 starship init fish | source
