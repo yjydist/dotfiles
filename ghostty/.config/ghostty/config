@@ -1,3 +1,5 @@
+command = /opt/homebrew/bin/fish 
+
 # ghostty 主题
 theme = "GruvboxDarkHard"
 

@@ -4,17 +4,13 @@ end
 
 set -U fish_greeting
 
-# set PATH
-set -gx PATH /Users/yjydist/go/bin $PATH
-set -gx PATH /home/yjydist/go/bin $PATH
-set -gx PATH /opt/homebrew/bin $PATH
-set -gx PATH $PATH /Users/yjydist/.spicetify
-set -gx PATH /opt/homebrew/opt/openjdk/bin $PATH
-set -gx PATH /usr/local/bin $PATH
 
 
-# set alias
+# Load all fish config files in ~/.config/fish/conf.d
+for file in ~/.config/fish/conf.d/*.fish
+    source $file
+end
 
-alias ls="eza -l"
 
-starship init fish | source
+
+
