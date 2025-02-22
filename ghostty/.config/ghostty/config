@@ -1,12 +1,9 @@
-command = /opt/homebrew/bin/fish 
-
-# ghostty 主题
 theme = "GruvboxDarkHard"
 
-# 字体设置
-font-family = JetbrainsMonoNL Nerd Font
-font-size = 14
 
+command = "fish"
 
-shell-integration = fish
+font-family = "JetBrainsMonoNL Nerd Font"
+font-size = 13
+
 
