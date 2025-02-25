@@ -5,8 +5,5 @@ set -gx PATH /opt/homebrew/bin $PATH
 set -gx PATH $PATH /Users/yjydist/.spicetify
 set -gx PATH /opt/homebrew/opt/openjdk/bin $PATH
 set -gx PATH /usr/local/bin $PATH
-<<<<<<< HEAD
 set -gx PATH /.spicetify/ $PATH
-=======
 set -gx PATH /usr/local/mysql/bin/ $PATH
->>>>>>> 6c07e78 (add fontconfig dir)
