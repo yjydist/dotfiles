@@ -3,7 +3,7 @@ theme = "GruvboxDarkHard"
 
 command = "fish"
 
-font-family = "FiraMono Nerd Font"
 font-size = 13
+font-family = "JetBrainsMonoNL Nerd Font"
 
 
