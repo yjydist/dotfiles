@@ -3,14 +3,8 @@ if status is-interactive
 end
 
 set -U fish_greeting
+set -gx http_proxy 127.0.0.1:7897
+set -gx https_proxy 127.0.0.1:7897
 
-
-
-# Load all fish config files in ~/.config/fish/conf.d
-for file in ~/.config/fish/conf.d/*.fish
-    source $file
-end
-
-
-
-
+alias ls 'eza -l'
+alias ff fastfetch
