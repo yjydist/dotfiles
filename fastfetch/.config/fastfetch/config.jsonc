@@ -29,27 +29,27 @@
       },
       {
         "type": "kernel",
-        "key": "  ",
+        "key": "  ",
         "keyColor": "white"
       },
       {
         "type": "packages",
-        "key": "  󰮯",
+        "key": "  ",
         "keyColor": "yellow"
       },
       {
-        "type": "wm",
-        "key": "  󰨇",
+        "type": "de",
+        "key": "  ",
         "keyColor": "blue"
       },
       {
         "type": "terminal",
-        "key": "  ",
+        "key": "  ",
         "keyColor": "magenta"
       },
       {
         "type": "shell",
-        "key": "  ",
+        "key": "  ",
         "keyColor": "yellow"
       },
       "break",
@@ -65,7 +65,7 @@
       },
       {
         "type": "cpu",
-        "key": "  ",
+        "key": "  ",
         "keyColor": "bright_green"
       },
       {
@@ -75,7 +75,7 @@
       },
       {
         "type": "memory",
-        "key": "  󰍛",
+        "key": "  ",
         "keyColor": "bright_yellow"
       },
       {
