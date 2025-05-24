@@ -1,16 +1,21 @@
 command = /opt/homebrew/bin/fish
 theme = catppuccin-mocha
 
-#font-family = JetBrainsMono Nerd Font
 font-family = FiraCode Nerd Font
+font-family = JetBrainsMono Nerd Font
 font-family = Maple Mono NF CN
-font-size = 11
+font-size = 11.5
 
 font-style-bold = false
+
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
 
 window-padding-x = 8
 
 adjust-underline-position = 98%
 adjust-underline-thickness = 1
 
-adjust-cell-height = 30%
+adjust-cell-height = 50%
+adjust-cell-width = 15%

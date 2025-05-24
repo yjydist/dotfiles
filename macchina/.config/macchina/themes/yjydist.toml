@@ -15,16 +15,13 @@ y = 2
 [palette]
 type = "Dark"
 glyph = "    "
-visible = true
+visible = false
 
 [bar]
 glyph = "o"
 symbol_open = '('
 symbol_close = ')'
 visible = false
-
-[custom_ascii]
-color = "Blue"
 
 [randomize]
 key_color = false
