@@ -1,7 +1,8 @@
 spacing = 1
 padding = 1
 hide_ascii = true
-separator = "=> "
+prefer_small_ascii = true
+separator = "==> "
 color = "Blue"
 
 
@@ -14,8 +15,8 @@ y = 2
 
 [palette]
 type = "Dark"
-glyph = "    "
-visible = false
+glyph = "      "
+visible = true
 
 [bar]
 glyph = "o"
