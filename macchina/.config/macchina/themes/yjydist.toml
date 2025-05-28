@@ -2,7 +2,7 @@ spacing = 1
 padding = 1
 hide_ascii = true
 prefer_small_ascii = true
-separator = "==> "
+separator = " => "
 color = "Blue"
 
 
