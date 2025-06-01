@@ -6,7 +6,7 @@
         "width": 30,
         "height": 10,
         "padding": {
-            "top": 3,
+            "top": 2,
             "left": 8,
             "right": 8
         }
@@ -15,22 +15,12 @@
         "separator": "  "
     },
     "modules": [
-	"break",
-	"break",
-	{
-            "type": "title",
-            "keyWidth": 10,
-            "color": {
-                "user": "blue",
-                "at": "white",
-                "host": "blue"
-            }
-        },
+        "break",
         "break",
         {
             "type": "os",
             "key": " ",
-            "keyColor": "blue",  // = color3
+            "keyColor": "blue", // = color3
         },
         {
             "type": "kernel",
@@ -40,22 +30,22 @@
         {
             "type": "packages",
             "key": " ",
-            "keyColor": "blue",  
+            "keyColor": "blue",
         },
         {
             "type": "shell",
             "key": " ",
-            "keyColor": "blue", 
+            "keyColor": "blue",
         },
         {
             "type": "de",
             "key": " ",
-            "keyColor": "blue", 
+            "keyColor": "blue",
         },
         {
             "type": "uptime",
             "key": " ",
-            "keyColor": "blue", 
+            "keyColor": "blue",
         },
         "break",
         "colors",
