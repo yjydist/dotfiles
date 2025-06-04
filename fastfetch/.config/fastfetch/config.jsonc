@@ -4,7 +4,7 @@
         "source": "$HOME/.config/fastfetch/avator.png",
         "type": "kitty-direct",
         "width": 30,
-        "height": 10,
+        "height": 9,
         "padding": {
             "top": 2,
             "left": 8,
@@ -20,32 +20,32 @@
         {
             "type": "os",
             "key": " ",
-            "keyColor": "blue", // = color3
+            "keyColor": "blue" // = color3
         },
         {
             "type": "kernel",
             "key": " ",
-            "keyColor": "blue",
+            "keyColor": "blue"
         },
         {
             "type": "packages",
             "key": " ",
-            "keyColor": "blue",
+            "keyColor": "blue"
         },
         {
             "type": "shell",
             "key": " ",
-            "keyColor": "blue",
+            "keyColor": "blue"
         },
         {
             "type": "de",
             "key": " ",
-            "keyColor": "blue",
+            "keyColor": "blue"
         },
         {
             "type": "uptime",
             "key": " ",
-            "keyColor": "blue",
+            "keyColor": "blue"
         },
         "break",
         "colors",

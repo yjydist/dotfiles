@@ -16,7 +16,7 @@ y = 2
 [palette]
 type = "Dark"
 glyph = "      "
-visible = true
+visible = false
 
 [bar]
 glyph = "o"
