@@ -15,7 +15,7 @@ y = 2
 
 [palette]
 type = "Dark"
-glyph = "      "
+glyph = ""
 visible = false
 
 [bar]
