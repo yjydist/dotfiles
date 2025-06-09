@@ -4,103 +4,85 @@
  *    ┻ ┛┗┗┛ ┻ ┻ ┗┛ ┻ ┗┛┛┗
  *                        
  */
-
-
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
-	"type": "file",
-	"source" : "$HOME/.config/fastfetch/logo.txt",
-	"height": 10,
-	"padding" : {
-		"top": 0
-	}
-    },	
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "$HOME/.config/fastfetch/avator.png",
+        "type": "kitty-direct",
+        "height": 11,
+        "width": 35,
+        "padding": {
+            "top": 3,
+            "left": 4,
+            "right": 4
+        }
+    },
     "display": {
-        "separator": "  "
+        "separator": "  ",
+        "color": "white"
     },
     "modules": [
-	{   "key": "                        ",
-	    "type": "custom"
-	},
-	{   "key": "                        ",
-	    "type": "custom"
-	},
-	{   "key": "                        ",
-	    "type": "custom"
-	},
-	{   "key": "                        ",
-	    "type": "custom"
-	},
-
         {
-            "key": "╭───────────╮",
+            "key": "                        ",
             "type": "custom"
         },
         {
-            "key": "│ {#31} user    {#keys}│",
+            "key": "                        ",
+            "type": "custom"
+        },
+        {
+            "key": "╭──────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "│ {##f38ba8} user   {#keys}│",
             "type": "title",
             "format": "{user-name}"
         },
         {
-            "key": "│ {#32}󰇅 hname   {#keys}│",
-            "type": "title",
-            "format": "{host-name}"
-        },
-        {
-            "key": "│ {#33}󰅐 uptime  {#keys}│",
-            "type": "uptime"
-        },
-        {
-            "key": "│ {#34}{icon} distro  {#keys}│",
-            "type": "os"
-        },
-        {
-            "key": "│ {#35} kernel  {#keys}│",
+            "key": "│ {##fab387} kernel {#keys}│",
             "type": "kernel"
         },
         {
-            "key": "│ {#36}󰇄 desktop {#keys}│",
+            "key": "│ {##f9e2af} de     {#keys}│",
             "type": "de"
         },
         {
-            "key": "│ {#31} term    {#keys}│",
-            "type": "terminal"
+            "key": "│ {##a6e3a1} wm     {#keys}│",
+            "type": "wm"
         },
         {
-            "key": "│ {#32} shell   {#keys}│",
+            "key": "│ {##94e2d5} pkg    {#keys}│",
+            "type": "packages"
+        },
+        {
+            "key": "│ {##89b4fa} shell  {#keys}│",
             "type": "shell"
         },
         {
-            "key": "│ {#33}󰍛 cpu     {#keys}│",
+            "key": "│ {##cba6f7} cpu    {#keys}│",
             "type": "cpu",
             "showPeCoreCount": true
         },
         {
-            "key": "│ {#34}󰉉 disk    {#keys}│",
-            "type": "disk",
-            "folders": "/"
-        },
-        {
-            "key": "│ {#35} memory  {#keys}│",
+            "key": "│ {##f5c2e7} memory {#keys}│",
             "type": "memory"
         },
         {
-            "key": "│ {#36}󰩟 network {#keys}│",
-            "type": "localip",
-            "format": "{ipv4} ({ifname})"
+            "key": "│ {##f5e0dc} uptime {#keys}│",
+            "type": "uptime"
         },
         {
-            "key": "├───────────┤",
+            "key": "├──────────┤",
             "type": "custom"
         },
         {
-            "key": "│ {#39} colors  {#keys}│",
+            "key": "│ {##eff1f5} colors {#keys}│",
             "type": "colors",
             "symbol": "circle"
         },
         {
-            "key": "╰───────────╯",
+            "key": "╰──────────╯",
             "type": "custom"
         }
     ]
