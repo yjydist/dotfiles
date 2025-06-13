@@ -21,6 +21,7 @@ font-style-bold-italic = false
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
+font-feature = cv02
 
 window-padding-x = 12
 window-padding-y = 2
