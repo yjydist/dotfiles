@@ -5,6 +5,7 @@ theme = catppuccin-mocha
 
 shell-integration-features = no-cursor
 cursor-style = block
+cursor-text = black
 
 font-family = 0xProto Nerd Font
 font-family = FiraCode Nerd Font
@@ -12,7 +13,7 @@ font-family = JetBrainsMono Nerd Font
 font-family = Maple Mono NF CN
 font-size = 12
 
-# font-style-bold = false
+font-style-bold = false
 font-style-italic = false
 font-style-bold-italic = false
 
