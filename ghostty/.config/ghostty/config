@@ -1,4 +1,4 @@
-command = fish
+command = /opt/homebrew/bin/fish
 macos-titlebar-proxy-icon = hidden
 title = " "
 theme = catppuccin-mocha
