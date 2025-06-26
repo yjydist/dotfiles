@@ -5,6 +5,7 @@
 
 #waybar {
     background-color: transparent;
+    min-height: 25px;
 }
 
 #waybar .module {
