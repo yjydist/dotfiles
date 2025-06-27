@@ -1,4 +1,3 @@
-command = /opt/homebrew/bin/fish
 macos-titlebar-proxy-icon = hidden
 title = " "
 theme = catppuccin-mocha
@@ -11,7 +10,7 @@ font-family = 0xProto Nerd Font
 font-family = JetBrians Mono
 font-family = JetBrainsMono Nerd Font
 font-family = Maple Mono NF CN
-font-size = 13
+font-size = 10
 
 #font-style-bold = false
 #font-style-italic = false

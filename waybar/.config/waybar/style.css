@@ -1,53 +1,170 @@
 * {
-    font-family: '0xProto Nerd Font', 'Maple Mono NF CN', monospace;
-    font-size: 15px;
+    font-family: "0xProto Nerd Font" ;
+	font-size: 12px;
+    font-weight: bold;
+	min-height: 10px;
 }
 
-#waybar {
-    background-color: transparent;
-    min-height: 25px;
+window#waybar {
+    background: transparent;
 }
 
-#waybar .module {
-    background-color: #11111b;
-    border-color: #cba6f7;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 2px;
-    color: #cba6f7;
+#custom-logo {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    color:#bd93f9;
+    background: #1A1826;
 }
 
-#waybar .module:hover {
-    background-color: #cba6f7;
-    color: #11111b;
+#custom-logo:hover {
+    background: #bd93f9;
+    color:#1A1826;
+}
+
+#tray {
+    margin-left: 2px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #1A1826;
 }
 
 #tray menu {
-    background-color: #11111b;
-    border-color: #cba6f7;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 2px;
-    color: #cba6f7;
+    border: none;
+    padding-left: 7px;
+    padding-right: 5px;;
+    color:#bd93f9;
+    background: #1A1826;
 }
 
-#tray menu:hover {
-    background-color: #cba6f7;
-    color: #11111b;
+#workspaces {
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 3px;;
+    color:#bd93f9;
+    background: #1A1826;
 }
 
 #workspaces button {
-    background-color: #11111b;
     border: none;
-    color: #cba6f7;
-}
-
-#workspaces button:hover {
-    background-color: #cba6f7;
-    color: #11111b;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;;
+    padding-bottom: 8px;
+    color:#cbc9cd;
+    background: #1A1826
 }
 
 #workspaces button.active {
-    background-color: #cba6f7;
-    color: #11111b;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;;
+    padding-bottom: 8px;
+    color:#bd93f9;
+    background: #1A1826
 }
+
+#custom-notification {
+    font-size: 13px;
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 10px;;
+    color:#bd93f9;
+    background: #1A1826;
+}
+
+#custom-notification:hover {
+    font-size: 13px;
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 10px;;
+    color:#1A1826;
+    background: #bd93f9;
+}
+
+#network {
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 3px;;
+    color:#bd93f9;
+    background: #1A1826;
+}
+
+#bluetooth {
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 3px;
+    color:#bd93f9;
+    background: #1A1826;
+}
+
+#pulseaudio{
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 3px;
+    color:#bd93f9;
+    background: #1A1826;
+}
+
+#backlight {
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 3px;
+    color:#bd93f9;
+    background: #1A1826;
+}
+
+#battery {
+    margin-left:2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 3px;
+    color:#bd93f9;
+    background: #1A1826;
+}
+
+#custom-power {
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 10px;
+    border: #bd93f9 solid 2px;
+    padding-left: 7px;
+    padding-right: 3px;
+    color:#bd93f9;
+    background: #1A1826;
+}
+
+

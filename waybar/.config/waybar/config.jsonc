@@ -1,26 +1,25 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 45,
+    "height": 25,
     "spacing": 0,
+    "reload_style_on_change": true,
     "modules-left": [
         "custom/logo",
-        "hyprland/workspaces",
         "mpd",
-        "tray"
+        "tray",
+        "custom/wallpaper"
     ],
     "modules-center": [
-        "hyprland/window",
+        "hyprland/workspaces",
         "custom/notification"
     ],
     "modules-right": [
         "network",
-        "battery",
         "bluetooth",
         "pulseaudio",
         "backlight",
-        "memory",
-        "cpu",
+        "battery",
         "custom/power"
     ],
     "hyprland/workspaces": {
@@ -51,24 +50,24 @@
         }
     },
     "custom/logo": {
-        "format": "  ",
-        "on-click": "rofi -show drun",
+        "format": " ",
+        "on-click": "wofi --show drun",
         "tooltip": true,
         "tooltip-format": "Open an application launcher"
     },
     "custom/power": {
-        "format": "  ",
+        "format": " ",
         "on-click": "~/.config/rofi/scripts/powermenu.py",
         "tooltip": true,
         "tooltip-format": "Power options menu"
     },
     "network": {
-        "format-wifi": " 󰤨  {essid} ",
+        "format-wifi": "󰤨  {essid} ",
         "format-ethernet": "  Wired ",
         "tooltip-format": "<span color='#FF1493'> 󰅧 </span>{bandwidthUpBytes}  <span color='#00BFFF'> 󰅢 </span>{bandwidthDownBytes}",
         "format-linked": " 󱘖  {ifname} (No IP) ",
-        "format-disconnected": "   Disconnected ",
-        "format-alt": " 󰤨  {signalStrength}% ",
+        "format-disconnected": "  Disconnected ",
+        "format-alt": "󰤨  {signalStrength}% ",
         "interval": 1
     },
     "battery": {
@@ -76,8 +75,8 @@
             "warning": 30,
             "critical": 15
         },
-        "format": " {icon} {capacity}% ",
-        "format-charging": " 󰂄 {capacity}%",
+        "format": "{icon} {capacity}% ",
+        "format-charging": "󰂄 {capacity}%",
         "interval": 1,
         "format-icons": [
             "󰂎",
@@ -92,16 +91,16 @@
         "format": "{icon}{volume}% ",
         "format-muted": " 󰖁 0% ",
         "format-icons": {
-            "headphone": "  ",
-            "hands-free": "  ",
-            "headset": "  ",
-            "phone": "  ",
-            "portable": "  ",
-            "car": "  ",
+            "headphone": " ",
+            "hands-free": " ",
+            "headset": " ",
+            "phone": " ",
+            "portable": " ",
+            "car": " ",
             "default": [
-                "  ",
-                "  ",
-                "  "
+                " ",
+                " ",
+                " "
             ]
         },
         "on-click-right": "pavucontrol -t 3",
@@ -134,19 +133,24 @@
         "tooltip": true,
         "tooltip-format": "当前屏幕亮度: {percent}%",
         "format-icons": [
-            " 󰃞 ", // 暗 
-            " 󰃟 ", // 中 
-            " 󰃝 ", // 亮 
-            " 󰃠 " // 最亮 
+            "󰃞 ", // 暗 
+            "󰃟 ", // 中 
+            "󰃝 ", // 亮 
+            "󰃠 " // 最亮 
         ]
     },
     "bluetooth": {
-        "format": "  {status} ",
-        "format-connected": "  {device_alias} ",
-        "format-connected-battery": "  {device_alias}{device_battery_percentage}% ",
+        "format": " {status} ",
+        "format-connected": " {device_alias} ",
+        "format-connected-battery": " {device_alias}{device_battery_percentage}% ",
         "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+    },
+    "custom/notification": {
+        "format": "󰍡",
+        "on-click": "",
+        "tooltip": false
     }
 }

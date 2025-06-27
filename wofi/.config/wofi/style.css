@@ -4,6 +4,7 @@ window {
 }
 
 #outer-box {
+    margin: 10px;
     padding: 12px;
     background-color: #11111b;
     border-radius: 8px;
