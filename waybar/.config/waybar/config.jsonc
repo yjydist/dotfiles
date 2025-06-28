@@ -3,6 +3,9 @@
     "position": "top",
     "height": 25,
     "spacing": 0,
+    "include": [
+        "~/.config/waybar/modules/*.jsonc"
+    ],
     "reload_style_on_change": true,
     "modules-left": [
         "custom/logo",
@@ -126,18 +129,6 @@
     "tray": {
         "icon-size": 16,
         "spacing": 10
-    },
-    "backlight": {
-        "device": "intel_backlight",
-        "format": "{icon} {percent}% ",
-        "tooltip": true,
-        "tooltip-format": "当前屏幕亮度: {percent}%",
-        "format-icons": [
-            "󰃞 ", // 暗 
-            "󰃟 ", // 中 
-            "󰃝 ", // 亮 
-            "󰃠 " // 最亮 
-        ]
     },
     "bluetooth": {
         "format": " {status} ",
