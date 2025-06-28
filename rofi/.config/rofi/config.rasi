@@ -15,16 +15,20 @@ configuration {
 	bg:				#181825;
 	fg:				#e8e8d3;
 	accent:				#687363;
-	button:				#31344a;
-
+	button:				#31344a;  
 	background-color:		@bg;
 	text-color:			@fg;
 }
 
 window {
+	border-color: #cba6f7;
 	border-radius:                  5px;
 	width:			    	50%;
 	padding: 			28px;
+}
+
+mainbox {
+		border-color:           #bd93f9;
 }
 
 prompt {
@@ -36,6 +40,7 @@ prompt {
 
 entry {
     	placeholder:			"Search";
+		border-color: #cba6f7;
 	background-color:               @button;
     	placeholder-color:              @fg;
     	expand:                         true;
@@ -49,6 +54,7 @@ inputbar {
     	border-radius:                  6px;
     	margin:                         0%;
     	padding:                        10px;
+		border-color: #cba6f7;
 }
 
 listview {
