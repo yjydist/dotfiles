@@ -1,0 +1,8 @@
+{
+    "custom/logo": {
+        "format": " ",
+        "on-click": "~/.config/rofi/scripts/launcher.sh",
+        "tooltip": true,
+        "tooltip-format": "Open an application launcher"
+    }
+}

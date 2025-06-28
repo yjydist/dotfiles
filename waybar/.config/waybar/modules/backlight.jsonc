@@ -1,0 +1,14 @@
+{
+      "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon} {percent}% ",
+        "tooltip": true,
+        "tooltip-format": "当前屏幕亮度: {percent}%",
+        "format-icons": [
+            "󰃞 ", // 暗 
+            "󰃟 ", // 中 
+            "󰃝 ", // 亮 
+            "󰃠 " // 最亮 
+        ]
+    }
+}
