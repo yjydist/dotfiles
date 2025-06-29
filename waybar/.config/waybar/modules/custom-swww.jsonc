@@ -1,0 +1,8 @@
+{
+    "custom/swww": {
+        "format": "󰸉",
+        "on-click": "",
+        "tooltip": true,
+        "tooltip-format": "select a wallpaper"
+    }
+}

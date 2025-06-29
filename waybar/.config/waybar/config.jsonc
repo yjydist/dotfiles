@@ -15,7 +15,7 @@
         "custom/logo",
         "mpd",
         "tray",
-        "custom/wallpaper"
+        "custom/swww"
     ],
     "modules-center": [
         "hyprland/workspaces",
