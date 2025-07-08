@@ -1,0 +1,54 @@
+###############################
+# ----- sxhdk for bspwm ----- #
+###############################
+
+
+
+########################
+# ----- keybinds ----- #
+########################
+
+# 打开 Terminal
+super + Return 
+    kitty
+
+# 打开 Terminal（浮动窗口）
+super + shift + Return
+    bspc rule -a kitty -o state=floating follow=on center=true rectangle=490x310+0+0 && kitty
+
+# 焦点移动（切换窗口焦点）
+super + {h,j,k,l}
+    bspc node -f {west,south,north,east}
+
+# ------------------------------------------------
+# 调整窗口大小
+# ------------------------------------------------
+super + alt + {h,j,k,l}
+    bspc node -z {left -20 0,right +20 0,down 0 +20,up 0 -20}
+
+# ------------------------------------------------
+# 移动窗口（交换位置）
+# ------------------------------------------------
+super + shift + {h,j,k,l}
+    bspc node -s {west,south,north,east}
+
+# ------------------------------------------------
+# 改变分割方向（下次新开窗口分割方向）
+# ------------------------------------------------
+super + y
+    bspc node -p north
+
+super + u
+    bspc node -p west
+
+super + i
+    bspc node -p east
+
+super + o
+    bspc node -p south
+
+# ------------------------------------------------
+# 启动终端示例（可替换成自己的）
+# ------------------------------------------------
+super + Return
+    kitty
