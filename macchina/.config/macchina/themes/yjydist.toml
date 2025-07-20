@@ -1,22 +1,24 @@
 spacing = 1
 padding = 1
-hide_ascii = true
+hide_ascii = false
 prefer_small_ascii = true
 separator = " => "
 color = "Blue"
 
+[custom_ascii]
+path = "~/.config/macchina/themes/logo.txt"
 
 [box]
 title = " Yjydist "
-border = "rounded"
+border = "double"
 visible = true
 x = 2
 y = 2
 
 [palette]
 type = "Dark"
-glyph = ""
-visible = false
+glyph = "    "
+visible = true
 
 [bar]
 glyph = "o"
@@ -28,9 +30,9 @@ visible = false
 key_color = false
 separator_color = false
 
-[key]
-host = "Host"
-kernel = "Kernel"
+[keys]
+host="Host"
+kernel="Kernel"
 os = "OS"
 machine = "Machine"
 de = "DE"

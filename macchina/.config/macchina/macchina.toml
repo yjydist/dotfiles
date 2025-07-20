@@ -1,1 +1,17 @@
 theme = "yjydist"
+
+current_shell = false
+
+memory_percentage = true
+
+show = [
+  "OperatingSystem",
+  "Kernel",
+  "DesktopEnvironment",
+  "WindowManager",
+  "Shell",
+  #"Terminal",
+  "Packages",
+  "Memory",
+  "Uptime"
+]
