@@ -1,5 +1,7 @@
 [general]
-import = []
+import = [
+    "./config/font.toml"
+]
 working_directory = "$HOME"
 live_config_reload = true
 
@@ -7,10 +9,3 @@ live_config_reload = true
 padding = { x = 10, y = 2 }
 decorations =  "Buttonless"
 
-[font]
-normal = { family = "0xProto Nerd Font", style = "Regular" }
-bold = { family = "0xProto Nerd Font", style = "Regular" }
-italic = { family = "0xProto Nerd Font", style = "Regular" }
-size = 12
-builtin_box_drawing = true
-offset = { x = 1, y = 2}

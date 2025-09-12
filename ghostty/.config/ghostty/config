@@ -1,7 +1,8 @@
 macos-titlebar-proxy-icon = hidden
 title = " "
 theme = catppuccin-mocha
-command = /opt/homebrew/bin/fish
+# command = /opt/homebrew/bin/fish
+maximize = true
 
 shell-integration-features = no-cursor
 cursor-style = block
@@ -9,21 +10,17 @@ cursor-text = black
 
 font-family = CaskaydiaMono Nerd Font
 font-family = SF Mono
-#font-family = 0xProto Nerd Font 
-font-family = JetBrians Mono
-font-family = JetBrainsMono Nerd Font
 font-family = Maple Mono NF CN
-font-size = 12
 
-#font-style-bold = false
-#font-style-italic = false
-#font-style-bold-italic = false
+font-size = 14
+# font-style = Bold
 
+# font-thicken = true
+# font-thicken-strength = 20
 
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
-#font-feature = cv02
 
 window-padding-x = 12
 window-padding-y = 2
@@ -32,5 +29,5 @@ window-height = 20
 
 adjust-underline-position = 12
 
-adjust-cell-height = 60%
-adjust-cell-width = 10%
+adjust-cell-height = 10%
+# adjust-cell-width = 5%
