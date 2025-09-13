@@ -7,86 +7,95 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    // "source": "$HOME/.config/fastfetch/logo.png",
-    "source": "~/.config/fastfetch/wall-05.png",
+    //"source": "$HOME/.config/fastfetch/logo.png",
+    //"source": "~/.config/fastfetch/wall-05.png",
+    //"source": "~/.config/fastfetch/sikadi.png",
+    //"source": "~/.config/fastfetch/arch.txt",
+    "source": "~/.config/fastfetch/logo2.png",
     "type": "kitty-direct",
-    // "height": 10,
-    // "width": 22,
-    "height": 11,
-    "width": 40,
+    "height": 12,
+    "width": 53,
     "padding": {
-      "top": 2,
-      "left": 4,
-      "right": 4,
-    },
+      "top": 1,
+      "left": 2,
+      "right": 2
+    }
   },
   "display": {
     "separator": "  ",
-    "color": "white",
+    "color": "white"
   },
   "modules": [
     {
-      "key": "                        ",
-      "type": "custom",
+      "key": " ",
+      "type": "custom"
     },
     {
-      "key": "╭──────────╮",
-      "type": "custom",
-    },
-    {
-      "key": "│ {##f38ba8} user   {#keys}│",
+      "key": "███",
       "type": "title",
-      "format": "{user-name}",
+      "keyColor": "#f2d5cf",
+      "format": "{user-name}"
+    },
+
+    {
+      "key": "███",
+      "type": "os",
+      "keyColor": "#f4b8e4"
     },
     {
-      "key": "│ {##fab387} kernel {#keys}│",
+      "key": "███",
       "type": "kernel",
+      "keyColor": "#ca9ee6"
     },
     {
-      "key": "│ {##f9e2af} de     {#keys}│",
+      "key": "███",
       "type": "de",
+      "keyColor": "#e78284"
     },
     {
-      "key": "│ {##a6e3a1} wm     {#keys}│",
+      "key": "███",
       "type": "wm",
+      "keyColor": "#ea999c"
     },
     {
-      "key": "│ {##94e2d5} pkg    {#keys}│",
+      "key": "███",
       "type": "packages",
+      "keyColor": "#ef9f76"
     },
     {
-      "key": "│ {##89b4fa} shell  {#keys}│",
+      "key": "███",
+      "type": "terminal",
+      "keyColor": "#e5c890"
+    },
+    {
+      "key": "███",
       "type": "shell",
+      "keyColor": "#a6d189"
     },
     {
-      "key": "│ {##cba6f7} cpu    {#keys}│",
+      "key": "███",
+      "type": "uptime",
+      "keyColor": "#81c8be"
+    },
+    {
+      "key": "███",
+      "type": "memory",
+      "keyColor": "#99d1db"
+    },
+    {
+      "key": "███",
       "type": "cpu",
       "showPeCoreCount": true,
+      "keyColor": "#85c1dc"
     },
     {
-      "key": "│ {##f5c2e7} memory {#keys}│",
-      "type": "memory",
+      "key": "███",
+      "type": "gpu",
+      "keyColor": "#8caaee"
     },
     {
-      "key": "│ {##f5e0dc} uptime {#keys}│",
-      "type": "uptime",
-    },
-    {
-      "key": "├──────────┤",
-      "type": "custom",
-    },
-    {
-      "key": "│ {##eff1f5} colors {#keys}│",
-      "type": "colors",
-      "symbol": "circle",
-    },
-    {
-      "key": "╰──────────╯",
-      "type": "custom",
-    },
-    {
-      "key": "                        ",
-      "type": "custom",
-    },
-  ],
+      "key": " ",
+      "type": "custom"
+    }
+  ]
 }

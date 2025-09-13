@@ -1,7 +1,12 @@
 theme = "yjydist"
 
-current_shell = false
+long_uptime = true
+long_shell = true
+long_kernel = true
+current_shell = true
 
+disks = ["/"]
+disk_space_percentage = false
 memory_percentage = true
 
 show = [
@@ -13,5 +18,6 @@ show = [
   #"Terminal",
   "Packages",
   "Memory",
-  "Uptime"
+  "Uptime",
+  "DiskSpace"
 ]
