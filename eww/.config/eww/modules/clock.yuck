@@ -1,0 +1,11 @@
+(defpoll clock_time :interval "1s" "date '+%H:%M'")
+(defpoll clock_date :interval "1h" "date '+%b %d, %A'")
+
+(defwidget clock []
+  (box :class "clock"
+       :orientation "h"
+       :space-evenly false
+       :halign "center"
+       :spacing 10
+    (label :text clock_time)
+    (label :text clock_date)))

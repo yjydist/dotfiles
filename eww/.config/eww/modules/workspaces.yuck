@@ -1,0 +1,10 @@
+(defwidget workspaces [workspaces focused]
+  (box :class "workspaces"
+       :orientation "h"
+       :space-evenly false
+       :halign "start"
+       :spacing 5
+    (for workspace in workspaces
+      (button :class "workspace-button ${workspace.name == focused ? "focused" : ""} ${workspace.status}"
+              :onclick "bspc desktop -f ${workspace.name}"
+        (label :text "${workspace.name}")))))

@@ -1,0 +1,25 @@
+(include "./modules/clock.yuck")
+(include "./modules/workspaces.yuck")
+(include "./modules/system.yuck")
+
+(defpoll bspwm_workspaces :interval "0.1s" "./scripts/workspaces.sh")
+
+(defwidget bar []
+  (centerbox :class "bar"
+             :orientation "h"
+    (workspaces :workspaces {bspwm_workspaces.workspaces} :focused {bspwm_workspaces.focused})
+    (clock)
+    (system_indicators)))
+
+(defwindow bar
+  :monitor 0
+  :geometry (geometry :x "0%"
+                      :y "0px"
+                      :width "100%"
+                      :height "30px")
+  :reserve (struts :side "top" :distance "35px")
+  :stacking "fg"
+  :exclusive true
+  :windowtype "dock"
+  :wm-ignore false
+  (bar))

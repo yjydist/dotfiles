@@ -1,0 +1,9 @@
+(defpoll volume :interval "1s" "amixer sget Master | grep 'Front Left:' | awk -F'[][]' '{print $2}' | tr -d '%'")
+
+(defwidget system_indicators []
+  (box :class "system-indicators"
+       :orientation "h"
+       :space-evenly false
+       :halign "end"
+       :spacing 15
+    (label :text " ${volume}%")))

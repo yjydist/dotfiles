@@ -1,0 +1,47 @@
+* {
+    all: unset;
+    font-family: "JetBrains Mono Nerd Font", FontAwesome, sans-serif;
+    font-size: 14px;
+}
+
+.bar {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    padding: 5px 15px;
+}
+
+.workspaces,
+.clock,
+.system-indicators {
+    padding: 5px 10px;
+}
+
+.workspaces .workspace-button {
+    padding: 2px 8px;
+    margin: 0 3px;
+    border-radius: 5px;
+    color: #a0a0a0;
+    transition: all 0.3s ease;
+}
+
+.workspaces .workspace-button.occupied {
+    color: #dcdcdc;
+}
+
+.workspaces .workspace-button.focused {
+    background-color: #3f3f3f;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.workspaces .workspace-button:hover {
+    background-color: #555555;
+}
+
+.clock {
+    font-weight: bold;
+}
+
+.system-indicators {
+    font-weight: normal;
+}
